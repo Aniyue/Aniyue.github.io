@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>ArrayList</title>
+      <link href="/2020/06/01/ArrayList/"/>
+      <url>/2020/06/01/ArrayList/</url>
+      
+        <content type="html"><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script></head><body><p>ArrayList实现了List接口，而List继承了Collection，Collection又是所有集合的父类。</p><p>对元素的操作比普通数组方便。</p><h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><pre><code>ArrayList<integer> al = new ArrayList<>()</integer></code></pre><p>索引从0开始</p><h2 id="相关方法"><a href="#相关方法" class="headerlink" title="相关方法"></a>相关方法</h2><p>al.add(“test”);//直接从第一个非空处往后插入,可为字符</p><p>al.add(“test”,2);//指定索引位置2</p><p>al.set(“test2”,3)//将3处的值设为test2</p><p>al.get(4);返回6处的值</p><p>al.remove(“5”);删除5处的值</p><p>al.size()，获取长度</p><p>al.isEmpty();判断是否为空</p><p>al.contains(Object o);判断是否包含某个元素</p><p>al.clear();清空集合</p><h2 id="优缺点"><a href="#优缺点" class="headerlink" title="优缺点"></a>优缺点</h2><p>因为ArrayList底层使用数组实现，所以优缺点与数组类似。</p><p>优点：</p><ol><li><p>根据下标<strong>遍历</strong>元素效率较高。</p></li><li><p>根据<u>下标</u><strong>访问</strong>元素效率较高。</p></li><li><p>对<strong>元素操作</strong>的方法方便。</p></li><li><p>可以<strong>自动扩容</strong>。不用最开始就非要初始化长度。</p></li></ol><p>缺点：</p><ol><li><strong>插入和删除</strong>的效率比较低。</li><li>根据<u>内容</u><strong>查找</strong>元素的效率较低。</li></ol><p><strong>扩容规则：每次扩容现有容量的50%。</strong></p></body></html>]]></content>
+      
+      
+      <categories>
+          
+          <category> java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> java基础 </tag>
+            
+            <tag> List </tag>
+            
+            <tag> 数组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>下拉框获取后台数据</title>
       <link href="/2020/05/12/%E4%B8%8B%E6%8B%89%E6%A1%86%E8%8E%B7%E5%8F%96%E6%95%B0%E6%8D%AE/"/>
       <url>/2020/05/12/%E4%B8%8B%E6%8B%89%E6%A1%86%E8%8E%B7%E5%8F%96%E6%95%B0%E6%8D%AE/</url>
@@ -37,7 +66,7 @@
       <link href="/2020/02/28/%E4%BA%8C%E6%9C%88%E5%BA%95%E7%9A%84%E9%9B%A8%E5%A4%9C/"/>
       <url>/2020/02/28/%E4%BA%8C%E6%9C%88%E5%BA%95%E7%9A%84%E9%9B%A8%E5%A4%9C/</url>
       
-        <content type="html"><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script></head><body><p>切记一点，你是<strong>按需学习</strong>，而不是一个收破烂的，收藏一堆链接，收藏了你就会了，其实收集得越多，你会越浮躁！</p><p>这句话有点提醒我😑</p><hr><p>晕，我最近都在干嘛啊</p><p>好久都不在状态了。前段时间胃痛、嗓子疼、浑身冒冷汗，可把我吓得不轻。在这个特殊时期，任何身体上的不舒服都会让人肺炎病毒上想，身心受到极大折磨。也的确，我的症状实在太像了，去医院检查之后，医生说应该只是吃坏了肚子，加上夜里着凉。而回想起来，还有一个原因可能是有一天起来，嗓子干痒，喝了一大口凉水，让我的胃受不了。正值季节交替，温度飘忽不定，易感风寒，一定是要注意身体。</p><hr><p>最近在考虑那个移动互联网的课程到底要不要退，我不想再</p><hr><p><strong>后记：</strong>这课退了</p></body></html>]]></content>
+        <content type="html"><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script></head><body><p>切记一点，你是<strong>按需学习</strong>，而不是收藏一堆链接，收藏了你就会了，其实收集得越多，你会越浮躁！</p><p>这句话有点提醒我😑</p><hr><p>晕，我最近都在干嘛啊</p><p>好久都不在状态了。前段时间胃痛、嗓子疼、浑身冒冷汗，可把我吓得不轻。在这个特殊时期，任何身体上的不舒服都会让人肺炎病毒上想，身心受到极大折磨。也的确，我的症状实在太像了，去医院检查之后，医生说应该只是吃坏了肚子，加上夜里着凉。而回想起来，还有一个原因可能是有一天起来，嗓子干痒，喝了一大口凉水，让我的胃受不了。正值季节交替，温度飘忽不定，易感风寒，一定是要注意身体。</p><hr><p>最近在考虑那个移动互联网的课程到底要不要退，我不想再</p><hr><p><strong>后记：</strong>这课退了</p></body></html>]]></content>
       
       
       <categories>
@@ -278,7 +307,7 @@
       <link href="/2020/01/16/test/"/>
       <url>/2020/01/16/test/</url>
       
-        <content type="html"><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script></head><body><p>这是一个测试文章</p><p>test</p>        <div id="aplayer-oZnEDqvi" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-oZnEDqvi"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "rainbow",              author: "GFRIEND",              url: "http://lc-UQ294L34.cn-n1.lcfile.com/308b986e7a1533e7329a/rainbow.mp3",              pic: "http://lc-UQ294L34.cn-n1.lcfile.com/c864c24ec3570caff28f/GFRIEND.jpg",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script></body></html>]]></content>
+        <content type="html"><![CDATA[<html><head><link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script></head><body><p>这是一个测试文章</p><p>test</p>        <div id="aplayer-HdmkZxZa" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-HdmkZxZa"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "rainbow",              author: "GFRIEND",              url: "http://lc-UQ294L34.cn-n1.lcfile.com/308b986e7a1533e7329a/rainbow.mp3",              pic: "http://lc-UQ294L34.cn-n1.lcfile.com/c864c24ec3570caff28f/GFRIEND.jpg",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script></body></html>]]></content>
       
       
       <categories>
